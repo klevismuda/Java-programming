@@ -29,8 +29,9 @@ public class SumOfNumbers {
 
                 num += str.charAt(i); // check if the other if char 12 d
 
-                if(i == str.length() - 1 || !Character.isDigit(str.charAt(i + 1))){  // take action if it is not number the next charAt
-//i == str.length() - 1 to not come to the last char
+                if(i == str.length() - 1 || !Character.isDigit(str.charAt(i + 1))){
+                    // take action if it is not number the next charAt
+                    //i == str.length() - 1 to not come to the last char
 
                     sum += Integer.parseInt(num);
                     num =""; // reset out String for the number
