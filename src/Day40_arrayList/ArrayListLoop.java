@@ -9,7 +9,7 @@ public class ArrayListLoop {
         nums.add(10); nums.add(2);nums.add(23);nums.add(35);nums.add(73);
         nums.add(5);nums.add(7);nums.add(12);nums.add(101);nums.add(120);
 
-        System  .out.println("nums = " + nums);
+        System.out.println("nums = " + nums);
         nums.remove(3);
         System.out.println("nums = " + nums);
 
