@@ -58,7 +58,7 @@ public class updatingArrayList {
             print "lada is not found"
          */
         if(myCars.contains("lada")) {
-            myCars.set( myCars.indexOf("lada"), "bugatti");
+            myCars.set(myCars.indexOf("lada"), "bugatti");
         } else {
             System.out.println("lada is not found");
         }
