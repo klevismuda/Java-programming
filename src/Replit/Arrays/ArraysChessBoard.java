@@ -9,11 +9,11 @@ public class ArraysChessBoard {
     public static void main(String[] args) {
         String[][] chessBoard = new String[8][8];
         char chessLetter;
-        for(int i = 1 ;i <= 8;i++){
+        for(int i = 0 ;i < 8;i++){
             chessLetter = 'a';
-                for(int j = 1 ; j <= 8; j++)
+                for(int j = 0 ; j < 8; j++)
                 {
-                    chessBoard[i][j] = i + (chessLetter + "");
+                    chessBoard[i][j] = (i + 1) + (chessLetter + "");
                     chessLetter++;
                 }//end for cols
             }

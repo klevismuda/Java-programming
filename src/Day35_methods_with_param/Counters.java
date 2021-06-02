@@ -7,7 +7,7 @@ public class Counters {
         int num = 999;
         count(num);
         String word = "wooden spoon";
-        count(word.length());
+        count(word.length());  // 12
         printAge(1989);
 
     }

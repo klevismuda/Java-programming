@@ -3,9 +3,10 @@ import java.util.*;
 public class ArrayListExample {
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<>();
-        nums.add(7);
+        nums.add(1, 7);
         nums.add(10);
         nums.add(12);
+
         //nums.add("java");
 
         //reading from arraysList

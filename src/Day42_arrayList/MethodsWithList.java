@@ -10,9 +10,9 @@ public class MethodsWithList {
         List<String> strings = new ArrayList<>(Arrays.asList("Albania", "USA", "Italy"));
         //pass the words list to printStrList method
         printStrList(strings);
-
+        System.out.println();
         printStrList(Arrays.asList("select", "option", "br", "python", "sql", "api"));
-
+        System.out.println();
         List<Integer> nums = Arrays.asList(23, 54, 23, 54554, 234, 11, 5, 2);
         int sum = sumIntegerList(nums);
         System.out.println("sum = " + sum);

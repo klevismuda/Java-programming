@@ -20,5 +20,6 @@ public class RawArrayList {
 
         System.out.println(list1);
         System.out.println(list1.size());
+
     }
 }

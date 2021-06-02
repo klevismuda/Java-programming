@@ -19,7 +19,7 @@ public class DaySelector {
 
         switch (day){
             case 1:
-                return ("Monday");
+                return "Monday";
             case 2:
                 return "Tuesday";
             case 3:
