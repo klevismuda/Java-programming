@@ -7,5 +7,7 @@ public class StudentObject {
 
         Student st3 = new Student("Klevis");
         Student str4 = new Student("Muda");
+
+        Student st5 = new Student("Nasiba" , 28);
     }
 }
